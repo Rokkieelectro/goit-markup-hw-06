@@ -692,8 +692,22 @@ margin-right: 10px;
   background-color: var(--hover-color);
 }
 
+.subscribe {
+margin-left: 98px;
+display: flex;
+align-items:center;
+}
 
-/*--modal--*/
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-title {
+  margin-bottom: 15px;
+}
+
+/*---------------------------modal----------------------*/
 
 .backdrop {
   width: 100%;
@@ -748,5 +762,22 @@ width: 11px;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
+}
+
+.modal{
+padding: 25px;
+}
+
+.modal-form {
+  display: flex;
+flex-direction: column;
+
+}
+
+.modal-input {
+  margin: 15px;
+  width: 100%;
+
 }
 

@@ -424,23 +424,99 @@
                   </li>
                 </ul>
             </div>
-
-      </div>
-
-        </div>
-      
-     
-     
-
+          </div>
+          <div class="subscribe">
+            
+            <form action="" class="subscribe-form">
+              <div class="subscribe-title">
+                <span>Subscribe for spam</span>
+            </div>
+             <div>
+               <input 
+              type="email"
+              name="sub-mail"
+              placeholder="Email"
+              />
+              <button type="submit">subscribe</button>
+             </div>
+             
+            </form>
+          </div>
+    </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal >
+    <div class="backdrop /*is-hidden*/" data-modal >
       <div class="modal">
          <button type="button" class="modal-close-button" data-modal-close> 
           <svg class="modal-close-icon">
             <use href="./images/symbol-defs.svg#icon-close" width="11" height="11"></use>
           </svg>
          </button>
+            <p class="modal-title">Leave your contacts, we will call you back</p>
+         <form action="" class="modal-form">
+          <label for="">
+            <span class="label-title">Name</span>
+            <input 
+            type="text"
+            name="Name"
+            placeholder="Max"
+            class="modal-input"
+            required
+            />
+          </label>
+           
+          <label for="">
+            <span class="label-title">Phone</span>
+            <input 
+            type="tel"
+            name="phone"
+            placeholder="+380 (93) 411-17-08"
+            class="modal-input"
+            required
+            />
+          </label>
+
+          <label for="">
+            <span class="label-title">Mail</span>
+            <input
+            type="email"
+            name="Email"
+            placeholder="qwe@amil.ua"
+            class="modal-input"
+            required
+            />
+          </label>
+
+          <label for="">
+            <span class="label-title">Comments</span>
+            <input 
+            type="textarea"
+            name="comments"
+            placeholder="I think..."
+            class="modal-input"
+            />
+          </label >
+        <div class="modal-checkbox">
+            <input 
+          type="checkbox"
+          class="modal-chackbox"
+          required
+          />
+          <span class="modal-checkbox-text">I agree with  selling my soul by </span> 
+          
+          <a href="" class="modal-contract">this contract</a>
+
+        </div>
+        
+
+          <button type="submit" class="modal-submit-button">Send</button>
+
+
+
+         </form>
+          
+
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>
