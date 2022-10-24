@@ -374,18 +374,6 @@ letter-spacing: 0.03em;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .hero {
   background: #2f303a;
   text-align: center;
@@ -538,7 +526,6 @@ width: calc((100% - 90px / 3 ));
 }
 
 .what-section {
- padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -892,6 +879,7 @@ border-radius: 4px;
 display: flex;
 align-items: center;
 justify-content: center;
+border-style: none;
 }
 
 .subscribe-button-text {
@@ -959,6 +947,15 @@ margin-right: 10px;
 padding: 0;
 height: 11px;
 width: 11px;
+display: block;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
+}
+
+.modal-close-button:hover {
+  fill: var(--hover-color);
+
 }
 
 .is-hidden {
@@ -1003,6 +1000,7 @@ line-height: 14px;
 letter-spacing: 0.01em;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+margin-top: 5px;
 outline: transparent;
 transition-property:var(--hover-color), fill;
   transition-duration: 250ms;
@@ -1028,7 +1026,7 @@ font-size: 12px;
 line-height: calc(14/12);
 letter-spacing: 0.01em;
 color: var(--add-text-color);
-margin-bottom: 4px;
+
 }
 
 .modal-input-comment {
@@ -1044,6 +1042,7 @@ padding: 15px 12px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 outline: transparent;
+margin-top: 5px;
 transition-property:var(--hover-color), fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 1, 0.2, 1);
